@@ -12,7 +12,7 @@ lang: en
 # <small>Release Notes for </small> <mark>MFXSTM32L152 Component Drivers</mark>
 Copyright &copy; 2015 STMicroelectronics\
     
-[![ST logo](../../../../_htmresc/st_logo.png)](https://www.st.com){.logo}
+[![ST logo](_htmresc/st_logo.png)](https://www.st.com){.logo}
 </center>
 :::
 :::
@@ -31,6 +31,28 @@ This driver provides a set of functions needed to drive MFXSTM32L152,  IO Expand
 
 ::: {.col-sm-12 .col-lg-8}
 # Update History
+
+::: {.collapse}
+<input type="checkbox" id="collapse-section5" checked aria-hidden="true">
+<label for="collapse-section5" aria-hidden="true">__V3.0.2 / 30-October-2019__</label>
+<div>			
+
+## Main Changes
+
+-	Update st_logo.png inclusion path in Release notes.
+
+</div>
+:::
+
+::: {.collapse}
+<input type="checkbox" id="collapse-section7" checked aria-hidden="true">
+<label for="collapse-section7" aria-hidden="true">V3.0.1 / 18-June-2019</label>
+<div>			
+## Main Changes
+Update MFXSTM32L152_DeInit to avoid disabling IO bus that could be used by others components
+
+</div>
+:::
 
 ::: {.collapse}
 <input type="checkbox" id="collapse-section6" checked aria-hidden="true">

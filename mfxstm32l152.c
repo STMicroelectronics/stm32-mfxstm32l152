@@ -155,9 +155,6 @@ int32_t MFXSTM32L152_DeInit(MFXSTM32L152_Object_t *pObj)
 {
   if(pObj->IsInitialized == 1U)
   {
-    /* De-Initialize IO BUS layer */
-    pObj->IO.DeInit();
-
     pObj->IsInitialized = 0U;
   }
   return MFXSTM32L152_OK;
