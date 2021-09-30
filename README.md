@@ -10,7 +10,7 @@
    * The CMSIS modules (core and device) corresponding to the ARM(tm) core implemented in this STM32 product.
    * The STM32 HAL-LL drivers, an abstraction layer offering a set of APIs ensuring maximized portability across the STM32 portfolio.
    * The BSP drivers of each evaluation, demonstration or nucleo board provided for this STM32 series.
-   * A consistent set of middleware components such as RTOS, USB, FatFS, graphics, touch sensing library...
+   * A consistent set of middleware libraries such as RTOS, USB, FatFS, graphics, touch sensing library...
    * A full set of software projects (basic examples, applications, and demonstrations) for each board provided for this STM32 series.
 
 Two models of publication are proposed for the STM32Cube embedded software:
@@ -19,13 +19,7 @@ Two models of publication are proposed for the STM32Cube embedded software:
 
 ## Description
 
-This **mfxstm32l152** MCU component repository is one element **common to all** STM32Cube MCU embedded software packages, providing the **MFXSTM32L152** BSP IOE component part.
-
-## License
-
-Copyright (c) 2018 STMicroelectronics
-
-This software component is licensed by STMicroelectronics under the **BSD-3-Clause** license. You may not use this software except in compliance with this license. You may obtain a copy of the license [here](https://opensource.org/licenses/BSD-3-Clause).
+This **mfxstm32l152** MCU component repository is one element **common to all** STM32Cube MCU embedded software packages, providing the **MFXSTM32L152** BSP IO Expander component part.
 
 ## Release note
 
@@ -37,6 +31,4 @@ Please refer to the repository of the BSP **board** driver you are using to know
 
 ## Troubleshooting
 
-If you have any issue with the **software content** of this repository, you can file an issue [here](https://github.com/STMicroelectronics/mfxstm32l152/issues/new/choose).
-
-For any other question related to the product, the tools, the environment, you can submit a topic to the [ST Community](https://community.st.com/s/).
+Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) guide.
